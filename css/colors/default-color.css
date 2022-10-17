@@ -336,10 +336,13 @@ a {
 
 .features-block.theme-two .inner-box:hover{
 	background: linear-gradient(-35deg, rgba(206,56,93,1) 0%, rgba(208,106,131,1) 55%, rgba(206,56,93,0.5886729691876751) 100%);
-	color: white;
+	color: white!important;
 }
 .features-block.theme-two:hover{
- 	color: white;
+ 	color: white!important;
+}
+.features-block.theme-two:hover h4{
+	color: white!important;
 }
 .gradient-heading-bg:before{
  	background-size: cover;
@@ -516,10 +519,9 @@ blockquote::before {
 	background: -webkit-linear-gradient(45deg, rgba(206,56,93,1) 0%, rgba(208,106,131,1) 55%, rgba(206,56,93,0.5886729691876751) 100%);
 	background: linear-gradient(45deg, rgba(206,56,93,1) 0%, rgba(208,106,131,1) 55%, rgba(206,56,93,0.5886729691876751) 100%);
 }
-.page-header.dc-six:before{
-	background: #f7f7f7;
-
-}
+/*.page-header.dc-six:before{*/
+/*	background: #f7f7f7;*/
+/*}*/
 
 .enquiry-form-box .form-wrapper .form-header h4 span{
 	color: #ce385d;
@@ -570,4 +572,20 @@ blockquote::before {
 	    opacity: 1;
 	    color: #ce385d;
 	}
+}
+
+.separator{
+	width: 11rem;
+	height: 5px;
+	border-radius: 10px;
+	background: -webkit-linear-gradient(-135deg, rgba(206,56,93,1) 0%, rgba(208,106,131,1) 55%, rgba(206,56,93,0.5886729691876751) 100%);
+	background: -moz-linear-gradient(-135deg, rgba(206,56,93,1) 0%, rgba(208,106,131,1) 55%, rgba(206,56,93,0.5886729691876751) 100%);
+	background: linear-gradient(-135deg, rgba(206,56,93,1) 0%, rgba(208,106,131,1) 55%, rgba(206,56,93,0.5886729691876751) 100%);
+
+	margin-top: -2rem;
+	margin-bottom: 2.5rem;
+}
+
+.landing-btn{
+	border-radius: 60px !important;
 }
